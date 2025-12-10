@@ -1,0 +1,35 @@
+{
+  "name": "paystack-react-lite",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.0",
+    "@types/react": "^18.0",
+    "@types/react-dom": "^18.0"
+  },
+  "module": "dist/index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/paystack-react-lite.git"
+  },
+  "keywords": ["react", "paystack", "payment", "react-component", "payments"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT"
+
+
+}

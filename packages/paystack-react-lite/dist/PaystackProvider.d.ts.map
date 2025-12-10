@@ -1,0 +1,1 @@
+{"version":3,"file":"PaystackProvider.d.ts","sourceRoot":"","sources":["../src/PaystackProvider.tsx"],"names":[],"mappings":"AAAA,OAAc,EAAiB,SAAS,EAAc,MAAM,OAAO,CAAC;AAQpE,wBAAgB,gBAAgB,CAAC,EAC/B,SAAS,EACT,QAAQ,GACT,EAAE;IACD,SAAS,EAAE,MAAM,CAAC;IAClB,QAAQ,EAAE,SAAS,CAAC;CACrB,2CAMA;AAED,wBAAgB,oBAAoB,WAQnC"}

@@ -1,0 +1,2 @@
+overrides:
+  paystack-react-lite: link:../../../AppData/Local/pnpm/global/5/node_modules/paystack-react-lite
