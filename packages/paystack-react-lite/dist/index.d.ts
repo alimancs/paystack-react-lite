@@ -50,8 +50,9 @@ declare function usePaystackPublicKey(): string;
 interface PaystackButtonProps extends PaystackConfig {
     className?: string;
     children?: React.ReactNode;
+    ref?: React.Ref<HTMLButtonElement>;
 }
-declare function PaystackButton({ className, children, ...config }: PaystackButtonProps): react_jsx_runtime.JSX.Element;
+declare function PaystackButton({ className, children, ref, ...config }: PaystackButtonProps): react_jsx_runtime.JSX.Element;
 
 export { PaystackButton, PaystackProvider, usePaystack, usePaystackPublicKey };
 export type { Currency, PaymentChannels, PaystackConfig };

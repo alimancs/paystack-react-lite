@@ -492,11 +492,11 @@ function usePaystackPublicKey() {
     return context.publicKey;
 }
 
-function PaystackButton({ className, children = "Pay Now", ...config }) {
+function PaystackButton({ className, children = "Pay Now", ref, ...config }) {
     const { initializePayment, ready } = usePaystack(config);
     return (jsxRuntimeExports.jsx("button", { className: className, disabled: !ready, onClick: () => {
             initializePayment();
-        }, children: children }));
+        }, ref: ref, children: children }));
 }
 
 export { PaystackButton, PaystackProvider, usePaystack, usePaystackPublicKey };
