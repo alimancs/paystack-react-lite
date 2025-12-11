@@ -1,9 +1,11 @@
 {
   "name": "paystack-react-lite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c"
   },
@@ -25,11 +27,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/paystack-react-lite.git"
+    "url": "git+https://github.com/alimancs/paystack-react-lite.git"
   },
-  "keywords": ["react", "paystack", "payment", "react-component", "payments"],
-  "author": "Your Name <your.email@example.com>",
+  "keywords": [
+    "react",
+    "paystack",
+    "payment",
+    "react-component",
+    "payments",
+    "wrapper"
+  ],
+  "author": "Alimam <aliman2952003@gmail.com>",
   "license": "MIT"
-
-
 }
