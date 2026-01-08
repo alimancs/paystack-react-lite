@@ -77,6 +77,17 @@ Please checkout [Paystack Documentation](https://developers.paystack.co/docs/pay
 
 REMEMBER TO CHANGE THE KEY WHEN DEPLOYING ON A LIVE/PRODUCTION SYSTEM
 
+## Community Implementations
+
+`paystack-react-lite` is built with TypeScript and works with React 18+ and Next.js (Pages Router and App Router).
+
+For an alternative community implementation with additional Next.js-focused examples and setup variations, see:
+
+👉 **nextjs-paystack-react-lite** by @engrukairo  
+https://github.com/engrukairo/nextjs-paystack-react-lite
+
+This repository builds on the same core idea and may be useful for developers looking for different usage patterns or examples.
+
 ## Contributing
 
 1. Fork it!
